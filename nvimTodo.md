@@ -1,0 +1,31 @@
+# Nvim Todo:
+
+- [X] fix harpoon -- use C-j not <leader>j
+- [ ] fix undodir. Just make it static somewhere in nvim conf. they shouldent be *that* big
+- [ ] make win term slightly transparent with the nord blue, at like 95%. or just remove the invis background from colormypencils
+- [X] learn to call colormypencils, I forgot how to do that
+- [X] set global statusline [set laststatus=3] by default in nvimrc -- also finish that teej video for everything else in that video
+- [ ] fix TS syntax highlighting for for everything, and make it work for markdown? if possible
+ -- not really possible - [ ] make <C-backspace> in edit mode do "<C-o>db" maybe B not b?
+- [X] set no neck pain on startup, it automatically turns off if you open aother buffer and <leader>n is easy If I dont want it.
+- [ ] Is there a way to have a good session saver thing? so I can just launch into whatever session from the loading scree? also put some pixel art there saying nvim or something. Can it set the cd of the term?
+- [ ] for markdown files:
+        - setlocal softwrap
+        - setlocal spell lang+en_us
+        - wordcount in statusline
+        - highlighting for ==this==
+        - trim trailing whitespace on save
+        - autosave on stop typing. undotree will help, but still
+- [ ] show invisibles font
+- [ ] good github integration for showing difference between files. and comitting changes and reading prs from nvim
+- [ ] smart indent on wrap - set indent length to be bigger on md, so "- [ ] " can work, but less in others? maybe just set the indent distance to be like 6 in py, but less in others that dont need it?
+- [ ] install a better term on mu
+- [ ] stylus nord theme google calendar
+- [ ] stylus set nord theme for canvas
+- [ ] get a pack of sticky notes and little bookmark stickies.
+- [X] make it stay on lock screen longer before the display turns off, flaunt the gay
+- [ ] https://www.youtube.com/watch?v=DOtM1mrWjUo Watchi this, take notes.
+- [ ] setup latex for nvim, get a setup that can take notes very copmetently
+        - vimtex
+- [ ] Md to pdf via pandoc? maybe setup the same for latex?
+- [ ] Make enabeling no neck pain close undodtree, and opening undotree close no neck pain
