@@ -20,6 +20,7 @@ return require('packer').startup(function(use)
 	--  use 'Yggdroot/indentLine'
 
 	use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
+    use('BurntSushi/ripgrep')
 	--use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 	--use('nvim-treesitter/playground') -- This kinda breaks *everything*
 

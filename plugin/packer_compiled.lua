@@ -174,6 +174,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\NJCis\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  ripgrep = {
+    loaded = true,
+    path = "C:\\Users\\NJCis\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\ripgrep",
+    url = "https://github.com/BurntSushi/ripgrep"
+  },
   ["sessions.nvim"] = {
     loaded = true,
     path = "C:\\Users\\NJCis\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\sessions.nvim",

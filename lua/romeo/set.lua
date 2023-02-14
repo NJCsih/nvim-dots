@@ -38,7 +38,7 @@ vim.g.mapleader = " "
 
 vim.opt.fillchars='eob: '
 
-vim.opt.laststatus=3
+vim.opt.laststatus = 3
 --vim.opt.listchars=tab:\|\ 
 --vim.opt.listchars = space:•
 vim.opt.list = true
