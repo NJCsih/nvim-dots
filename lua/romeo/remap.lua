@@ -2,13 +2,10 @@ vim.g.mapleader = " "
 
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex) --open netrw
 
-vim.keymap.set("n", "<leader>pacs", vim.cmd.PackerSync) --resync packer
-
 --vim.ekymap.set("n", "<leader>spell", vim.set.spell spelllang=en_us) -- enable spellcheck
 
--- vim.keymap.set("e", "<C-{backspace}>", <C-c>)
+--vim.keymap.set("i", "<C-BS>", "<C-o>dB") -- this doesnt really work in term vim :(
 
--- move highlighted blocks | This is the one thing I could only do in atom! :D
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 

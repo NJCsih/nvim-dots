@@ -109,6 +109,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\NJCis\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
+  gruvbox = {
+    loaded = true,
+    path = "C:\\Users\\NJCis\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\gruvbox",
+    url = "https://github.com/morhetz/gruvbox"
+  },
   harpoon = {
     loaded = true,
     path = "C:\\Users\\NJCis\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\harpoon",
