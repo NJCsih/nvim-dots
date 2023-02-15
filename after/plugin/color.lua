@@ -1,10 +1,4 @@
-
-function ColorMyPencils(color)
-	color = color or "gruvbox"
-	vim.cmd.colorscheme(color)
-
-	--vim.api.nvim_set_hl(0, "Normal", { bg = "none"})
-	--vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none"})
-end
-
-ColorMyPencils()
+vim.keymap.set( 'n', '<leader>cs', function()
+    vim.cmd.colorscheme({ vim.fn.input("Color > ") });
+end)
+-- setting colorscheme on nvim startup handled by DeviceConfig.lua

@@ -18,7 +18,7 @@ vim.opt.showbreak = ">>  "
 
 vim.opt.swapfile = false
 vim.opt.backup = false
-vim.opt.undodir = "C:/Users/NJCis/Appdata/local/nvim-data/undodir"
+--vim.opt.undodir = "C:/Users/NJCis/Appdata/local/nvim-data/undodir"
 vim.opt.undofile = true
 
 vim.opt.hlsearch = false
@@ -42,3 +42,6 @@ vim.opt.laststatus = 3
 --vim.opt.lcs.append = { 'tab:\|\ ' }
 vim.opt.lcs.append = { 'space:•' }
 vim.opt.list = true
+
+vim.opt.wrap = true
+vim.opt.linebreak = true

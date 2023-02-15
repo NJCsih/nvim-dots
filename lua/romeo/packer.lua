@@ -35,8 +35,6 @@ return require('packer').startup(function(use)
 
     use {"shortcuts/no-neck-pain.nvim", tag = "*" } -- no neck pain
 
-    use("natecraddock/sessions.nvim") --save sessions
-
     use("lervag/vimtex") -- LaTeX integration
 
     use {
