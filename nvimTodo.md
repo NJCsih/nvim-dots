@@ -8,6 +8,7 @@
 - [X] fix undodir. Just make it static somewhere in nvim conf. they shouldent be *that* big -- I think It's fixed? Need to test current functionality on win
 - [X] add keybind for fugitive GDiffsplit and some other commands
 - [X] show diff in sign colunm
+- [X] show invisibles -- progress, tab needs to be changed, and space doesnt always work :p
 - [ ] use tabs not spaces
 - [ ] fix TS syntax highlighting for for everything, and make it work for markdown? if possible
 -- not really possible - [ ] make <C-backspace> in edit mode do "<C-o>db" maybe B not b?
@@ -23,9 +24,7 @@
         - [ ] autosave on stop typing. undotree will help, but still
     - py, c, rust
         - [ ] Change indent size? to only 2 or 4 spaces? or can you change how wide tabs draw?
-- [-] show invisibles -- progress, tab needs to be changed, and space doesnt always work :p
-- [ ] good github integration for showing difference between files. and comitting changes and reading prs from nvim
-    - [ ] Github work trees plugin
+- [ ] Github work trees plugin
 LaTeX stuff
 - [ ] https://www.youtube.com/watch?v=DOtM1mrWjUo Watch this, take notes.
 - [ ] setup latex for nvim, get a setup that can take notes very copmetently

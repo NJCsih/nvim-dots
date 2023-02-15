@@ -27,7 +27,9 @@ vim.g.mapleader = " "
 
 vim.opt.fillchars='eob: '
 
+--window cleanup
 vim.opt.laststatus = 3 -- single, global statusline
+vim.cmd([[highlight WinSeparator guibg=None]])
 
 -- indenting and wrapping
 vim.opt.breakindent = true
