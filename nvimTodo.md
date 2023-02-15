@@ -7,6 +7,8 @@
 - [O] set no neck pain on startup, it automatically turns off if you open aother buffer and <leader>n is easy If I dont want it. -- decided against, weird behavior
 - [X] fix undodir. Just make it static somewhere in nvim conf. they shouldent be *that* big -- I think It's fixed? Need to test current functionality on win
 - [X] add keybind for fugitive GDiffsplit and some other commands
+- [X] show diff in sign colunm
+- [ ] use tabs not spaces
 - [ ] fix TS syntax highlighting for for everything, and make it work for markdown? if possible
 -- not really possible - [ ] make <C-backspace> in edit mode do "<C-o>db" maybe B not b?
 - [ ] Is there a way to have a good session saver thing? so I can just launch into whatever session from the loading screen? also put some pixel art there saying nvim or something. Can it set the cd of the term?
@@ -39,3 +41,5 @@ My devices personally
 - [ ] stylus set nord theme for canvas
 - [ ] get a pack of sticky notes and little bookmark stickies.
 - [ ] make win term slightly transparent with the nord blue, at like 95%. or just remove the invis background from colormypencils
+- [ ] Look into b3 for win, as I would really love that. or just straight up dual boot to linux on Mu. Maybe arch? that would be pretty cool
+- [ ] Update I3 on Romeo, the i3gaps in I3 release is out
