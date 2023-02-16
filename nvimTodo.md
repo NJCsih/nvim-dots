@@ -12,8 +12,6 @@
 - [ ] use tabs not spaces
 - [ ] fix TS syntax highlighting for for everything, and make it work for markdown? if possible
 -- not really possible - [ ] make <C-backspace> in edit mode do "<C-o>db" maybe B not b?
-- [ ] Is there a way to have a good session saver thing? so I can just launch into whatever session from the loading screen? also put some pixel art there saying nvim or something. Can it set the cd of the term?
-    - Maybe if you can setup the splash screen plugin to do that?
 - Filetype specific things:
     - Markdown
         - [X] setlocal softwrap -- made global and on by default
@@ -30,6 +28,11 @@ LaTeX stuff
 - [ ] setup latex for nvim, get a setup that can take notes very copmetently
 - [ ] vimtex
 - [ ] Md to pdf via pandoc? maybe setup the same for latex?
+
+### Future
+- [ ] Is there a way to have a good session saver thing? so I can just launch into whatever session from the loading screen? also put some pixel art there saying nvim or something. Can it set the cd of the term?
+    - Dont worry about until I've changed terminal on windows, there may be a better solution there?
+    - Maybe if you can setup the splash screen plugin to do that?
 
 My devices personally
 - [X] make it stay on lock screen longer before the display turns off, flaunt the gay
