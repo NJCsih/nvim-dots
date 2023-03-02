@@ -12,10 +12,13 @@ return require('packer').startup(function(use)
         requires = { {'nvim-lua/plenary.nvim'} }
     }
 
+    -- colorschemes
     use 'shaunsingh/nord.nvim'
     use 'morhetz/gruvbox'
-    use 'itsjunetime/rose-pine-vim'
-    use { "catppuccin/nvim", as = "catppuccin" }
+    --use 'itsjunetime/rose-pine-vim'
+    --use { "catppuccin/nvim", as = "catppuccin" }
+    
+    --use 'nvim-tree/nvim-web-devicons'
 
     --  use 'Yggdroot/indentLine'
 
@@ -31,8 +34,6 @@ return require('packer').startup(function(use)
     use('mhinz/vim-signify')
 
     use('nvim-lualine/lualine.nvim') --bar at bottom
-
-    --use('preservim/nerdtree') -- filetree on left
 
     use {"shortcuts/no-neck-pain.nvim", tag = "*" } -- no neck pain
 

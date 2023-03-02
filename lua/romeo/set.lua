@@ -27,9 +27,11 @@ vim.g.mapleader = " "
 
 vim.opt.fillchars='eob: '
 
+vim.opt.encoding = 'utf-8'
+
 --window cleanup
 vim.opt.laststatus = 3 -- single, global statusline
-vim.cmd([[highlight WinSeparator guibg=None]])
+vim.cmd('highlight WinSeparator guibg=None')
 
 -- indenting and wrapping
 vim.opt.breakindent = true
@@ -55,4 +57,4 @@ vim.opt.listchars = {
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
-vim.opt.expandtab = false --use real tabs
+vim.opt.expandtab = true --use real tabs -- this has issues if off
