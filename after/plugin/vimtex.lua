@@ -1,0 +1,4 @@
+--Editor configured in per machine settings file:
+--vim.g.vimtex_view_general_viewer = 'Okular.exe'
+    -- Not currently set. I need to restart so okular will be in path properly.
+    -- Also I may want to look into different ones
