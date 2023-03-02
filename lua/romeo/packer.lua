@@ -14,6 +14,8 @@ return require('packer').startup(function(use)
 
     use 'shaunsingh/nord.nvim'
     use 'morhetz/gruvbox'
+    use 'itsjunetime/rose-pine-vim'
+    use { "catppuccin/nvim", as = "catppuccin" }
 
     --  use 'Yggdroot/indentLine'
 
