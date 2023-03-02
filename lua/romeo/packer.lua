@@ -12,9 +12,13 @@ return require('packer').startup(function(use)
         requires = { {'nvim-lua/plenary.nvim'} }
     }
 
+    -- colorschemes
     use 'shaunsingh/nord.nvim'
     use 'morhetz/gruvbox'
-    use 'nvim-tree/nvim-web-devicons'
+    --use 'itsjunetime/rose-pine-vim'
+    --use { "catppuccin/nvim", as = "catppuccin" }
+    
+    --use 'nvim-tree/nvim-web-devicons'
 
     --  use 'Yggdroot/indentLine'
 
