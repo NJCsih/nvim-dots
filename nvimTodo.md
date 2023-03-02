@@ -9,8 +9,10 @@
 - [X] add keybind for fugitive GDiffsplit and some other commands
 - [X] show diff in sign colunm
 - [X] show invisibles -- progress, tab needs to be changed, and space doesnt always work :p
-- [ ] use tabs not spaces
+- [X] map scroll with mouse to scroll through undotree https://xkcd.com/1806/
+- [X] use tabs not spaces -- disabling expandtab has issues. or maybe it's just rendering as ^I for somereason?
 - [ ] fix TS syntax highlighting for for everything, and make it work for markdown? if possible
+- [ ] Make indent on wrap the little down and right arrow, and the indent thing the |   ? That may be hard given spaces not true tabs...
 -- not really possible - [ ] make <C-backspace> in edit mode do "<C-o>db" maybe B not b?
 - Filetype specific things:
     - Markdown
@@ -33,6 +35,7 @@ LaTeX stuff
 - [ ] Is there a way to have a good session saver thing? so I can just launch into whatever session from the loading screen? also put some pixel art there saying nvim or something. Can it set the cd of the term?
     - Dont worry about until I've changed terminal on windows, there may be a better solution there?
     - Maybe if you can setup the splash screen plugin to do that?
+- [ ] Switch to Lazy.nvim. It seems nice
 
 My devices personally
 - [X] make it stay on lock screen longer before the display turns off, flaunt the gay

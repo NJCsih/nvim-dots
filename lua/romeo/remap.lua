@@ -40,4 +40,8 @@ vim.keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", { silent = true })
     --mabey make this start a new nvim in a new window, and close this one
 -- end())
 
+-- Remaps to do XKCD/1806
+vim.keymap.set("n", "<ScrollWheelUp>", "<C-r>")
+vim.keymap.set("n", "<ScrollWheelDown>", "u")
+--That's amazing!
 

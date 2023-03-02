@@ -14,6 +14,7 @@ return require('packer').startup(function(use)
 
     use 'shaunsingh/nord.nvim'
     use 'morhetz/gruvbox'
+    use 'nvim-tree/nvim-web-devicons'
 
     --  use 'Yggdroot/indentLine'
 
@@ -29,8 +30,6 @@ return require('packer').startup(function(use)
     use('mhinz/vim-signify')
 
     use('nvim-lualine/lualine.nvim') --bar at bottom
-
-    --use('preservim/nerdtree') -- filetree on left
 
     use {"shortcuts/no-neck-pain.nvim", tag = "*" } -- no neck pain
 
