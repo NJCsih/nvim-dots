@@ -31,7 +31,7 @@ vim.opt.encoding = 'utf-8'
 
 --window cleanup
 vim.opt.laststatus = 3 -- single, global statusline
-vim.cmd('highlight WinSeparator guibg=None')
+vim.cmd('highlight WinSeparator guibg=None') -- *clean* borders
 
 -- indenting and wrapping
 vim.opt.breakindent = true
@@ -46,7 +46,7 @@ vim.opt.list = true
 --vim.opt.lcs.append = { 'tab:|  ' }
 vim.opt.showbreak = "|   "
 vim.opt.listchars = {
-  eol = '⤶',
+  eol = '↙',
   space = '•',
   trail = '•',
   extends = '◀',
