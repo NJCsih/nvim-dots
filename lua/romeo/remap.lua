@@ -26,6 +26,9 @@ vim.keymap.set("x", "<leader>P", "\"_dP") --paste, but preserve register
 vim.keymap.set("v", "<leader>y", "\"+y") --yank into sys clip
 vim.keymap.set("n", "<leader>y", "V\"+y") -- yank line into sys clip
 vim.keymap.set("n", "<leader>p", "\"+p") --paste from sys clip
+vim.keymap.set("v", "<leader>p", "\"+p") --paste from sys clip
+
+vim.keymap.set("n", "<leader>e", ":!Explorer .<Cr><Cr>")
 
 vim.keymap.set("n", "<C-g>", "ggVG") --select all, done quite basically
 
