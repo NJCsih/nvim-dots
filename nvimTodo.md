@@ -1,5 +1,7 @@
 # Nvim Todo:
 
+running <L>cs seems to unset set.lua? not sure how
+
 - [X] fix harpoon -- use C-j not <leader>j
 - ColorMyPencils replaced with <leader>cs [colorscheme] keymap. I'm fairly happy with it
 - [X] Set default colorscheme by device, maybe make a device specific folder that git doesnt track?

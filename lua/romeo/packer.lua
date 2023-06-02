@@ -15,6 +15,8 @@ return require('packer').startup(function(use)
     use 'shaunsingh/nord.nvim'
     use 'morhetz/gruvbox'
 
+    use 'folke/trouble.nvim'
+
     --  use 'Yggdroot/indentLine'
 
     use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
