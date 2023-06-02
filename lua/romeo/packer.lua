@@ -12,8 +12,13 @@ return require('packer').startup(function(use)
         requires = { {'nvim-lua/plenary.nvim'} }
     }
 
+    -- colorschemes
     use 'shaunsingh/nord.nvim'
     use 'morhetz/gruvbox'
+    --use 'itsjunetime/rose-pine-vim'
+    --use { "catppuccin/nvim", as = "catppuccin" }
+    
+    --use 'nvim-tree/nvim-web-devicons'
 
     use 'folke/trouble.nvim'
 
@@ -21,6 +26,7 @@ return require('packer').startup(function(use)
 
     use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
     use('BurntSushi/ripgrep')
+    use('sharkdp/fd')
     --use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
     --use('nvim-treesitter/playground') -- This kinda breaks *everything*
 
@@ -31,8 +37,6 @@ return require('packer').startup(function(use)
     use('mhinz/vim-signify')
 
     use('nvim-lualine/lualine.nvim') --bar at bottom
-
-    --use('preservim/nerdtree') -- filetree on left
 
     use {"shortcuts/no-neck-pain.nvim", tag = "*" } -- no neck pain
 

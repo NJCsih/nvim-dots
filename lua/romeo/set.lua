@@ -22,14 +22,17 @@ vim.opt.isfname:append("@-@")
 vim.opt.updatetime = 250
 
 vim.opt.colorcolumn = "80"
+--vim.opt.colorcolumn = "24"
 
 vim.g.mapleader = " "
 
 vim.opt.fillchars='eob: '
 
+vim.opt.encoding = 'utf-8'
+
 --window cleanup
 vim.opt.laststatus = 3 -- single, global statusline
-vim.cmd([[highlight WinSeparator guibg=None]])
+vim.cmd('highlight WinSeparator guibg=None') -- *clean* borders
 
 -- indenting and wrapping
 vim.opt.breakindent = true
@@ -44,7 +47,7 @@ vim.opt.list = true
 --vim.opt.lcs.append = { 'tab:|  ' }
 vim.opt.showbreak = "|   "
 vim.opt.listchars = {
-  eol = '⤶',
+  eol = '↙',
   space = '•',
   trail = '•',
   extends = '◀',
@@ -55,4 +58,4 @@ vim.opt.listchars = {
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
-vim.opt.expandtab = false --use real tabs
+vim.opt.expandtab = true --use real tabs -- this has issues if off
